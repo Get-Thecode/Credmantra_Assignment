@@ -1,0 +1,126 @@
+.navBar{
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+span{
+    padding-left: 6rem;
+}
+
+.btnSignUp
+{
+    border: 2px solid white;
+    
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+  }
+   .container
+  {
+    max-width: 100%;
+   max-height: 100%;
+   padding-top: 8%;
+  }
+  .mainHeading
+  {
+    text-align: center;
+    color: blue;
+    font-size: 500%;
+    text-shadow: 1px 1px #1900ff;
+    
+  }
+  .subHeading{
+    text-align: center;
+    color: grey;
+  }
+  
+  .arrowdown {
+    border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 2px;
+  margin-top: auto;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    color: white;
+  }
+  .item{
+    background: black;
+    color: white;
+  }
+
+.labelDropdown{
+  max-width: 1rem;
+}
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:black;
+}
+
+.downarrow{
+  padding-bottom:2px
+}
+.bottom {
+  position: absolute;
+  bottom: 7px;
+  border: 3px solid #0000;
+  background-color: #36454F;
+  width:100%;
+  height: 27%;
+  position: fixed;
+}
+
+.example-card {
+  max-width: 300px;
+  margin-bottom: 6px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 48
+}
